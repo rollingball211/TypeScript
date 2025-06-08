@@ -17,3 +17,11 @@ let doubleArr:number[][]  = [
 //tuple => 길이와 타입이 고정된 배열
 let tup1:[number,number] = [1,2];
 let tup2:[number,string,boolean]= [1,"2",true];
+
+//순서가 달라지거나 길이가 다르다면 오류가 발생함
+
+//튜플은 배열이기 때문에, push와 pop을 이용해 값을 추가하거나 지울수 있음
+
+tup1.push(1); //배열 메소드를 사용할때는 에러가 발생하지 않음
+tup1.pop();
+
