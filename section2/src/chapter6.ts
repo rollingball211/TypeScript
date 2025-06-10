@@ -17,3 +17,9 @@ let num : number = 10;
 num = anyVar;
 
 let unknownVar : unknown;
+
+unknownVar ="";
+unknownVar= 1;
+unknownVar = () => {};
+
+//num = unknownVar;
