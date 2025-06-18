@@ -65,6 +65,7 @@ let post: Post = {
     author: "김지년"
 }
 
-const len : number = post.author?.length; //optional chaining
+//const len : number = post.author?.length; //optional chaining
 //author property의 값이 null / undefined 일 경우엔 해당 값을 undefined로 만든다
 //optinal chaining을 사용하면 undefined가 될 수 있으나, number 타입으로 지정했기 때문에 에러가 발생함
+const len : number = post.author!.length;
