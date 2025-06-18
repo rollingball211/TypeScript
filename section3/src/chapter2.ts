@@ -65,6 +65,14 @@ Any 타입
 function anyExam() {
     let unknownVar : unknown;
     let anyVar : any;
+    let undefinedVar : undefined;
 
+    //any타입은 다운캐스티이 가능함. => 타입계의 치트키 (타입 캐스팅 자체를 무시하기에 권장하지 않음)
     anyVar = unknownVar;
+    undefinedVar = anyVar;
+
+    //never 타입은 적용 x
+
+    let neverVar : never;
+    //neverVar = anyVar; 
 }
