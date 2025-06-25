@@ -31,3 +31,5 @@ function warning (animal : Animal) {
         animal;
     } 
 }
+
+//0626
