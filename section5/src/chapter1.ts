@@ -26,4 +26,15 @@ interface Chicken extends Animal {
     isFly : boolean;
 }
 
+
+interface DogCat extends Dog,Cat {
+
+}
+
+const dogCat : DogCat = {
+    name : "",
+    age : 3,
+    isBark : true,
+    isScratch : true
+}
 //중복된 프로퍼티가 많다
