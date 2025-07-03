@@ -17,3 +17,16 @@ const person : Person = {
         console.log("hi");
     }
 };
+
+
+type Type1 = number | string | Person;
+type Type2 = number & string & Person;
+
+
+const person1 : Person | number = {
+    name : "이정환",
+    age : 27,
+    sayHi : function () {
+        console.log("hi");
+    }
+};
