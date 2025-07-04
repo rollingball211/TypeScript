@@ -31,6 +31,11 @@ const employeeC: Employee = {
 };
 
 class ExecutiveOfficer extends Employee {
+    officeNumber:number;
     
+    constructor(name: string,age: number,position: string,officeNumber:number) {
+        super(name,age,position);
+        this.officeNumber = officeNumber;
+    }
 }
 
