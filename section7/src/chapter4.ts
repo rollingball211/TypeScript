@@ -3,7 +3,7 @@
  */
 
 
-class NumberList { //generic class로 만들것임
+class List<T>  { //generic class로 만들것임
     constructor(private list : number[]) {
         this.list = list;
     }
@@ -21,7 +21,7 @@ class NumberList { //generic class로 만들것임
     }
 }
 
-const numberList = new NumberList([1,2,3]);
+const numberList = new List([1,2,3]);
 numberList.pop();
 numberList.push(4);
 numberList.print();
